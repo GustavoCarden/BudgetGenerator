@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BudgetGenerator.jnlp">
+  <information>
+    <title>BudgetGenerator</title>
+    <vendor>Gustavo</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BudgetGenerator.jar" size="681225" download="eager" />
+    <jar href="lib\avalon-framework-4.2.0.jar" size="81961" download="eager" />
+    <jar href="lib\batik-all-1.7.jar" size="3318083" download="eager" />
+    <jar href="lib\collections.jar" size="253191" download="eager" />
+    <jar href="lib\commons-io-2.4.jar" size="185140" download="eager" />
+    <jar href="lib\core-renderer.jar" size="1079166" download="eager" />
+    <jar href="lib\fop.jar" size="2260214" download="eager" />
+    <jar href="lib\i18nAPI_v3.jar" size="896908" download="eager" />
+    <jar href="lib\iText.jar" size="1154186" download="eager" />
+    <jar href="lib\itextpdf-5.4.0.jar" size="1889485" download="eager" />
+    <jar href="lib\javax.xml.bind.jar" size="103515" download="eager" />
+    <jar href="lib\jdom-1.1.jar" size="153115" download="eager" />
+    <jar href="lib\json-20180813.jar" size="64597" download="eager" />
+    <jar href="lib\orai18n-collation.jar" size="1062368" download="eager" />
+    <jar href="lib\org.apache.commons.httpclient.jar" size="307550" download="eager" />
+    <jar href="lib\org.apache.commons.io.jar" size="83613" download="eager" />
+    <jar href="lib\saxon-9.1.0.8.jar" size="5046534" download="eager" />
+    <jar href="lib\saxon9-dom.jar" size="129236" download="eager" />
+    <jar href="lib\serializer-2.7.0.jar" size="188993" download="eager" />
+    <jar href="lib\versioninfo.jar" size="2310" download="eager" />
+    <jar href="lib\xdocore.jar" size="6429651" download="eager" />
+    <jar href="lib\xmlgraphics-commons-1.3.1.jar" size="517073" download="eager" />
+    <jar href="lib\xmlparserv2.jar" size="1436555" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="budgetgenerator.BudgetGenerator"  name="BudgetGenerator" />
+  <update check="always"/>
+</jnlp>
